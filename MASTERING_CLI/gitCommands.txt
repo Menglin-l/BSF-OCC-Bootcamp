@@ -1,0 +1,11 @@
+Configuration Commands
+
+git config --global user.name your-username - to change username
+git config --global user.email your-email - to change email
+git config user.name - to check username
+git config user.email - to check email
+
+Creating Repos
+
+git init - initialize local git repo
+git rm --cached - 
