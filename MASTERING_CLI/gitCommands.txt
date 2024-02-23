@@ -21,4 +21,12 @@ git reset - removes all files in the staging area
 git log - see commit history
 git log --oneline - shortens commit history
 
+Branching
+
+git branch <newBranchName> - create a new branch
+git branch -a - list all branches
+git switch <branchName> - switches to a branch
+git merge <branchName> - merges branch into branch we are on e.g. We are on branch master and have another branch newBranchA. When we run the command "git merge newBranchA", all changes in the newBranchA are merges into master.
+git branch -d <branchName> - deletes branch if merged in master branch
+
 my note: to switch the branch, both git switch <branch name> and git checkout <branch name> work
