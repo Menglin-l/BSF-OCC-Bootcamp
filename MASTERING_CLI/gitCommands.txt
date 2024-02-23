@@ -29,4 +29,13 @@ git switch <branchName> - switches to a branch
 git merge <branchName> - merges branch into branch we are on e.g. We are on branch master and have another branch newBranchA. When we run the command "git merge newBranchA", all changes in the newBranchA are merges into master.
 git branch -d <branchName> - deletes branch if merged in master branch
 
-my note: to switch the branch, both git switch <branch name> and git checkout <branch name> work
+git checkout commitID - seeing state of the code in a particular commit
+
+Remote Repositories
+
+git remote add origin URLtoRemoteRepo - link remote repo to local repo
+git branch -M main - renaming 'master' branch to 'main'
+git push -u origin main - pushing into origin main branch
+
+My note: 1. to switch the branch, both git switch <branch name> and git checkout <branch name> work
+2.If origin is wrong, and you want to remove it. You can run: "git remote remove origin", and then, the origin will be removed. And next, rerun the command "git remote add origin ..." again to make sure everything is correct.
